@@ -1,0 +1,91 @@
+18:54:45:858  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : Starting TradeApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 8240 (E:\springcloud\huoduan\hmall\trade-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+18:54:45:858  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : The following 1 profile is active: "local"
+18:54:46:634  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:54:46:634  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:54:46:643  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+18:54:46:781  INFO 8240 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1dc31219-04b6-3f44-a5e8-b7d694d9f724
+18:54:46:991  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:54:46:991  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+18:54:46:991  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18:54:46:992  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:54:46:994  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+18:54:46:996  INFO 8240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:54:46:996  INFO 8240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:54:47:053  INFO 8240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:54:47:053  INFO 8240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+18:54:47:131  WARN 8240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+18:54:47:136  INFO 8240 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+18:54:47:382  INFO 8240 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
+18:54:49:289  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:49:312  INFO 8240 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:54:50:924  INFO 8240 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+18:54:50:965  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:51:021  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 7f366109-a90b-460b-b6cd-966094117da9
+18:54:51:021  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] RpcClient init label, labels = {module=naming, source=sdk}
+18:54:51:021  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:54:51:021  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:54:51:021  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:54:51:023  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Try to connect to server on start up, server: {serverIp = '192.168.19.131', server main port = 8848}
+18:54:51:211  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Success to connect to server [192.168.19.131:8848] on start up, connectionId = 1734346292856_192.168.19.1_57853
+18:54:51:211  INFO 8240 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Notify connected event to listeners.
+18:54:51:211  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:54:51:211  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1159/0x0000000801491cc8
+18:54:51:223  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+18:54:51:231  INFO 8240 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.20.1:8085 register finished
+18:54:51:750  INFO 8240 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Receive server push request, request = NotifySubscriberRequest, requestId = 77
+18:54:51:753  INFO 8240 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Ack server push request, request = NotifySubscriberRequest, requestId = 77
+18:54:52:660  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:52:660  INFO 8240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:54:52:661  INFO 8240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:54:52:670  INFO 8240 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:54:52:712  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : Started TradeApplication in 8.555 seconds (JVM running for 7014.996)
+18:54:52:739  INFO 8240 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:54:52:750  INFO 8240 --- [Thread-27] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+18:54:52:755  INFO 8240 --- [Thread-27] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+18:54:53:234  INFO 8240 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Receive server push request, request = NotifySubscriberRequest, requestId = 79
+18:54:53:236  INFO 8240 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [7f366109-a90b-460b-b6cd-966094117da9] Ack server push request, request = NotifySubscriberRequest, requestId = 79
+18:54:53:421  INFO 8240 --- [Thread-27] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+18:54:53:421  INFO 8240 --- [Thread-27] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5e36b3aa[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+18:54:53:421  INFO 8240 --- [Thread-27] com.alibaba.nacos.common.remote.client   : Close current connection 1734346292856_192.168.19.1_57853
+18:54:53:422  INFO 8240 --- [Thread-27] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@75caf5a6[Running, pool size = 10, active threads = 0, queued tasks = 0, completed tasks = 10]
+18:54:55:434  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : Starting TradeApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 8240 (E:\springcloud\huoduan\hmall\trade-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+18:54:55:434  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : The following 1 profile is active: "local"
+18:54:55:998  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:54:55:998  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:54:56:005  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+18:54:56:107  INFO 8240 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1dc31219-04b6-3f44-a5e8-b7d694d9f724
+18:54:56:238  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+18:54:56:238  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+18:54:56:238  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18:54:56:238  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:54:56:240  INFO 8240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+18:54:56:240  INFO 8240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:54:56:240  INFO 8240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:54:56:286  INFO 8240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:54:56:286  INFO 8240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+18:54:56:372  WARN 8240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+18:54:56:378  INFO 8240 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+18:54:56:571  INFO 8240 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
+18:54:58:361  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:58:384  INFO 8240 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:54:59:949  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:55:00:008  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 64888e50-36b0-4334-a805-418ad95e7705
+18:55:00:008  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] RpcClient init label, labels = {module=naming, source=sdk}
+18:55:00:009  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:55:00:009  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:55:00:009  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:55:00:009  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Try to connect to server on start up, server: {serverIp = '192.168.19.131', server main port = 8848}
+18:55:00:213  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Success to connect to server [192.168.19.131:8848] on start up, connectionId = 1734346302599_192.168.19.1_57865
+18:55:00:213  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:55:00:213  INFO 8240 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Notify connected event to listeners.
+18:55:00:213  INFO 8240 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1159/0x0000000801491cc8
+18:55:00:228  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+18:55:00:233  INFO 8240 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.20.1:8085 register finished
+18:55:00:731  INFO 8240 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Receive server push request, request = NotifySubscriberRequest, requestId = 82
+18:55:00:733  INFO 8240 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [64888e50-36b0-4334-a805-418ad95e7705] Ack server push request, request = NotifySubscriberRequest, requestId = 82
+18:55:01:639  INFO 8240 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:55:01:639  INFO 8240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:55:01:640  INFO 8240 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:55:01:686  INFO 8240 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:55:01:726  INFO 8240 --- [restartedMain] com.cjp.trade.TradeApplication           : Started TradeApplication in 8.142 seconds (JVM running for 7024.009)
+18:55:01:729  INFO 8240 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

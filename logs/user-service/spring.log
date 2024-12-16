@@ -1,0 +1,88 @@
+18:54:45:311  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : Starting UserApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 1612 (E:\springcloud\huoduan\hmall\user-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+18:54:45:312  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : The following 1 profile is active: "local"
+18:54:46:187  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:54:46:187  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:54:46:197  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+18:54:46:379  INFO 1612 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=104b9991-f3c0-36e1-a13a-459eea68ebc5
+18:54:46:566  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+18:54:46:566  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+18:54:46:566  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18:54:46:567  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:54:46:572  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+18:54:46:573  INFO 1612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:54:46:573  INFO 1612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:54:46:674  INFO 1612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:54:46:674  INFO 1612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+18:54:47:501  WARN 1612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+18:54:49:103  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:49:128  INFO 1612 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:54:50:703  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:50:707  INFO 1612 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+18:54:50:846  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of cd3a2e87-5720-44b9-ab7e-72cda2d0c4db
+18:54:50:846  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] RpcClient init label, labels = {module=naming, source=sdk}
+18:54:50:846  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:54:50:846  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:54:50:846  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:54:50:847  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Try to connect to server on start up, server: {serverIp = '192.168.19.131', server main port = 8848}
+18:54:51:041  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Success to connect to server [192.168.19.131:8848] on start up, connectionId = 1734346292668_192.168.19.1_57852
+18:54:51:041  INFO 1612 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Notify connected event to listeners.
+18:54:51:041  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:54:51:041  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1133/0x00000008014bad98
+18:54:51:054  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+18:54:51:059  INFO 1612 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.20.1:8084 register finished
+18:54:51:523  INFO 1612 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Receive server push request, request = NotifySubscriberRequest, requestId = 76
+18:54:51:527  INFO 1612 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Ack server push request, request = NotifySubscriberRequest, requestId = 76
+18:54:52:506  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:52:506  INFO 1612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:54:52:507  INFO 1612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:54:52:513  INFO 1612 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:54:52:554  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : Started UserApplication in 8.857 seconds (JVM running for 10015.082)
+18:54:52:576  INFO 1612 --- [Thread-49] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+18:54:52:587  INFO 1612 --- [Thread-49] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+18:54:52:591  INFO 1612 --- [Thread-49] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+18:54:53:114  INFO 1612 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Receive server push request, request = NotifySubscriberRequest, requestId = 78
+18:54:53:117  INFO 1612 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [cd3a2e87-5720-44b9-ab7e-72cda2d0c4db] Ack server push request, request = NotifySubscriberRequest, requestId = 78
+18:54:53:253  INFO 1612 --- [Thread-49] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+18:54:53:254  INFO 1612 --- [Thread-49] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5fa2deec[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+18:54:53:254  INFO 1612 --- [Thread-49] com.alibaba.nacos.common.remote.client   : Close current connection 1734346292668_192.168.19.1_57852
+18:54:53:255  INFO 1612 --- [Thread-49] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2224c3a0[Running, pool size = 10, active threads = 0, queued tasks = 0, completed tasks = 10]
+18:54:53:260  WARN 1612 --- [nacos-grpc-client-executor-10] c.a.n.c.remote.client.grpc.GrpcClient    : [1734346292668_192.168.19.1_57852]Ignore error event,isRunning:false,isAbandon=false
+18:54:55:274  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : Starting UserApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 1612 (E:\springcloud\huoduan\hmall\user-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+18:54:55:274  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : The following 1 profile is active: "local"
+18:54:55:833  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:54:55:834  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:54:55:839  INFO 1612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+18:54:55:949  INFO 1612 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=104b9991-f3c0-36e1-a13a-459eea68ebc5
+18:54:56:099  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+18:54:56:099  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+18:54:56:099  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18:54:56:099  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:54:56:101  INFO 1612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+18:54:56:101  INFO 1612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:54:56:102  INFO 1612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:54:56:151  INFO 1612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:54:56:151  INFO 1612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
+18:54:56:776  WARN 1612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+18:54:58:253  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:58:275  INFO 1612 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:54:59:854  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4951f681-085b-4c1e-a9d0-33c05ebfd1e4
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] RpcClient init label, labels = {module=naming, source=sdk}
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:54:59:925  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Try to connect to server on start up, server: {serverIp = '192.168.19.131', server main port = 8848}
+18:55:00:166  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Success to connect to server [192.168.19.131:8848] on start up, connectionId = 1734346302548_192.168.19.1_57864
+18:55:00:166  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:55:00:166  INFO 1612 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1133/0x00000008014bad98
+18:55:00:166  INFO 1612 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Notify connected event to listeners.
+18:55:00:180  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+18:55:00:185  INFO 1612 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.20.1:8084 register finished
+18:55:00:728  INFO 1612 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Receive server push request, request = NotifySubscriberRequest, requestId = 83
+18:55:00:730  INFO 1612 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [4951f681-085b-4c1e-a9d0-33c05ebfd1e4] Ack server push request, request = NotifySubscriberRequest, requestId = 83
+18:55:01:609  INFO 1612 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:55:01:609  INFO 1612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:55:01:610  INFO 1612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:55:01:616  INFO 1612 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:55:01:661  INFO 1612 --- [restartedMain] com.cjp.user.UserApplication             : Started UserApplication in 8.271 seconds (JVM running for 10024.189)
+18:55:01:665  INFO 1612 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
