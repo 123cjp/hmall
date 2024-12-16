@@ -2,8 +2,9 @@ package com.cjp.item.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.cjp.item.domain.dto.ItemDTO;
-import com.cjp.item.domain.dto.OrderDetailDTO;
+
+import com.cjp.api.dto.ItemDTO;
+import com.cjp.api.dto.OrderDetailDTO;
 import com.cjp.item.domain.po.Item;
 import com.cjp.item.service.IItemService;
 import com.hmall.common.domain.PageDTO;

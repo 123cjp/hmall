@@ -1,7 +1,7 @@
 package com.cjp.item.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.cjp.item.domain.dto.OrderDetailDTO;
+import com.cjp.api.dto.OrderDetailDTO;
 import com.cjp.item.domain.po.Item;
 
 import org.apache.ibatis.annotations.Update;

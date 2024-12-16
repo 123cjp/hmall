@@ -10318,3 +10318,351 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 16:08:22:286  INFO 15156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 16:08:22:306  INFO 15156 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 16:08:22:396  INFO 15156 --- [restartedMain] com.cjp.item.ItemApplication             : Started ItemApplication in 8.719 seconds (JVM running for 9.355)
+16:59:55:266  INFO 15156 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 12 class path changes (0 additions, 9 deletions, 3 modifications)
+16:59:55:325  INFO 24904 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 12 class path changes (0 additions, 9 deletions, 3 modifications)
+16:59:55:441  INFO 24904 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+16:59:55:558  INFO 15156 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+16:59:55:589  INFO 24904 --- [Thread-1] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:59:55:597  INFO 24904 --- [Thread-1] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:59:55:829  INFO 15156 --- [Thread-1] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:59:55:840  INFO 15156 --- [Thread-1] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:59:55:936  INFO 24904 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:59:55:936  INFO 24904 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@795cc5ed[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:59:55:936  INFO 24904 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Close current connection 1734336470076_192.168.19.1_36057
+16:59:55:941  INFO 24904 --- [nacos-grpc-client-executor-647] c.a.n.c.remote.client.grpc.GrpcClient    : [1734336470076_192.168.19.1_36057]Ignore complete event,isRunning:false,isAbandon=false
+16:59:55:953  INFO 24904 --- [Thread-1] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@54c1cdd5[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 648]
+16:59:56:208  INFO 15156 --- [nacos-grpc-client-executor-640] com.alibaba.nacos.common.remote.client   : [ea3045d0-149d-4a77-906c-428fa8b9e0eb] Receive server push request, request = NotifySubscriberRequest, requestId = 46
+16:59:56:223  INFO 15156 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:59:56:227  INFO 15156 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@36cd92ac[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:59:56:229  INFO 15156 --- [Thread-1] com.alibaba.nacos.common.remote.client   : Close current connection 1734336501456_192.168.19.1_36140
+16:59:56:238  INFO 15156 --- [nacos-grpc-client-executor-640] com.alibaba.nacos.common.remote.client   : [ea3045d0-149d-4a77-906c-428fa8b9e0eb] Ack server push request, request = NotifySubscriberRequest, requestId = 46
+16:59:56:247 ERROR 15156 --- [nacos-grpc-client-executor-640] c.a.n.c.remote.client.grpc.GrpcClient    : [1734336501456_192.168.19.1_36140]Error to send ack response, ackId->46
+16:59:56:248  INFO 15156 --- [nacos-grpc-client-executor-640] c.a.n.c.remote.client.grpc.GrpcClient    : [1734336501456_192.168.19.1_36140]Ignore complete event,isRunning:false,isAbandon=false
+16:59:56:266  INFO 15156 --- [Thread-1] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@113a8195[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 641]
+16:59:57:732  INFO 24904 --- [restartedMain] com.cjp.item.ItemApplication             : Starting ItemApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 24904 (E:\springcloud\huoduan\hmall\item-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+16:59:57:732  INFO 24904 --- [restartedMain] com.cjp.item.ItemApplication             : The following 1 profile is active: "local"
+16:59:58:017  INFO 15156 --- [restartedMain] com.cjp.item.ItemApplication             : Starting ItemApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 15156 (E:\springcloud\huoduan\hmall\item-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+16:59:58:017  INFO 15156 --- [restartedMain] com.cjp.item.ItemApplication             : The following 1 profile is active: "local"
+16:59:58:130  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:59:58:130  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:59:58:134  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+16:59:58:186  INFO 24904 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26d64ed2-9d53-320b-94cf-a7e806d7be04
+16:59:58:257  INFO 24904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+16:59:58:258  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:59:58:258  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:59:58:258  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:59:58:259  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:59:58:260  INFO 24904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:59:58:260  INFO 24904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:59:58:279  INFO 24904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:59:58:280  INFO 24904 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 545 ms
+16:59:58:298  WARN 24904 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@32a8025d]
+16:59:58:298  INFO 24904 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+16:59:58:306  INFO 24904 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:59:58:336 ERROR 24904 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@32a8025d]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.cjp.item.ItemApplication.main(ItemApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@32a8025d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/cjp/api/dto/ItemDTO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.27.jar:5.3.27]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.cjp.api.dto.ItemDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+16:59:58:355  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:59:58:355  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:59:58:359  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+16:59:58:405  INFO 15156 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26d64ed2-9d53-320b-94cf-a7e806d7be04
+16:59:58:475  INFO 15156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+16:59:58:475  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:59:58:475  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:59:58:475  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:59:58:476  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:59:58:477  INFO 15156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:59:58:477  INFO 15156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:59:58:494  INFO 15156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:59:58:494  INFO 15156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 473 ms
+16:59:58:504  WARN 15156 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f6b9564]
+16:59:58:504  INFO 15156 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+16:59:58:511  INFO 15156 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:59:58:530 ERROR 15156 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f6b9564]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.cjp.item.ItemApplication.main(ItemApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f6b9564]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/cjp/api/dto/ItemDTO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.27.jar:5.3.27]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.cjp.api.dto.ItemDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+17:00:01:007  INFO 24904 --- [restartedMain] com.cjp.item.ItemApplication             : Starting ItemApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 24904 (E:\springcloud\huoduan\hmall\item-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+17:00:01:007  INFO 24904 --- [restartedMain] com.cjp.item.ItemApplication             : The following 1 profile is active: "local"
+17:00:01:173  INFO 15156 --- [restartedMain] com.cjp.item.ItemApplication             : Starting ItemApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 15156 (E:\springcloud\huoduan\hmall\item-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+17:00:01:173  INFO 15156 --- [restartedMain] com.cjp.item.ItemApplication             : The following 1 profile is active: "local"
+17:00:01:451  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:00:01:451  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:00:01:454  INFO 24904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+17:00:01:489  INFO 24904 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26d64ed2-9d53-320b-94cf-a7e806d7be04
+17:00:01:536  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:00:01:536  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:00:01:539  INFO 15156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+17:00:01:561  INFO 24904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+17:00:01:562  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:00:01:562  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:00:01:562  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:00:01:563  INFO 24904 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:00:01:563  INFO 24904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:00:01:564  INFO 24904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:00:01:585  INFO 15156 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26d64ed2-9d53-320b-94cf-a7e806d7be04
+17:00:01:586  INFO 24904 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+17:00:01:586  INFO 24904 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+17:00:01:601  WARN 24904 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7dcf5194]
+17:00:01:602  INFO 24904 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+17:00:01:610  INFO 24904 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:00:01:617 ERROR 24904 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7dcf5194]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.cjp.item.ItemApplication.main(ItemApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7dcf5194]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/cjp/api/dto/ItemDTO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.27.jar:5.3.27]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.cjp.api.dto.ItemDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+17:00:01:676  INFO 15156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+17:00:01:676  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:00:01:676  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:00:01:676  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:00:01:677  INFO 15156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:00:01:677  INFO 15156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:00:01:678  INFO 15156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:00:01:696  INFO 15156 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+17:00:01:696  INFO 15156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 518 ms
+17:00:01:704  WARN 15156 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e46cdf8]
+17:00:01:704  INFO 15156 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+17:00:01:708  INFO 15156 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:00:01:711 ERROR 15156 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e46cdf8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.cjp.item.ItemApplication.main(ItemApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cjp.item.controller.ItemController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e46cdf8]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/cjp/api/dto/ItemDTO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.27.jar:5.3.27]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.cjp.api.dto.ItemDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.12.jar:2.7.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+18:23:21:072  WARN 15156 --- [Thread-8] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+18:23:21:070  WARN 15156 --- [Thread-11] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+18:23:21:140  WARN 15156 --- [Thread-8] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+18:23:21:287  WARN 15156 --- [Thread-11] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+18:23:31:018  INFO 10828 --- [restartedMain] com.cjp.item.ItemApplication             : Starting ItemApplication using Java 17.0.4.1 on LAPTOP-HF0JH6U2 with PID 10828 (E:\springcloud\huoduan\hmall\item-service\target\classes started by HW in E:\springcloud\huoduan\hmall)
+18:23:31:019  INFO 10828 --- [restartedMain] com.cjp.item.ItemApplication             : The following 1 profile is active: "local"
+18:23:31:099  INFO 10828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:23:31:099  INFO 10828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:23:32:698  INFO 10828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:23:32:704  INFO 10828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:23:32:748  INFO 10828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+18:23:33:220  INFO 10828 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e179edd5-f581-3313-9943-27d82f56a4fc
+18:23:34:459  INFO 10828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+18:23:34:460  INFO 10828 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+18:23:34:461  INFO 10828 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18:23:34:461  INFO 10828 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:23:34:474  INFO 10828 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+18:23:34:493  INFO 10828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:23:34:493  INFO 10828 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:23:34:677  INFO 10828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:23:34:679  INFO 10828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3578 ms
+18:23:36:071  WARN 10828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+18:23:37:650  INFO 10828 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:23:37:703  INFO 10828 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:23:39:953  INFO 10828 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:23:40:313  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 0673a5c0-f48f-482a-9322-d32253249e68
+18:23:40:441  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 57 ms to scan 1 urls, producing 3 keys and 6 values 
+18:23:40:489  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 4 keys and 9 values 
+18:23:40:513  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
+18:23:40:533  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 14 ms to scan 3 urls, producing 0 keys and 0 values 
+18:23:40:545  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+18:23:40:562  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+18:23:40:579  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 2 keys and 8 values 
+18:23:40:590  INFO 10828 --- [restartedMain] org.reflections.Reflections              : Reflections took 6 ms to scan 3 urls, producing 0 keys and 0 values 
+18:23:40:592  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] RpcClient init label, labels = {module=naming, source=sdk}
+18:23:40:595  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:23:40:595  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:23:40:596  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:23:40:599  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Try to connect to server on start up, server: {serverIp = '192.168.19.131', server main port = 8848}
+18:23:42:515  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Success to connect to server [192.168.19.131:8848] on start up, connectionId = 1734344298131_192.168.19.1_56611
+18:23:42:516  INFO 10828 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Notify connected event to listeners.
+18:23:42:516  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:23:42:517  INFO 10828 --- [restartedMain] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1120/0x0000000801489ed8
+18:23:42:605  INFO 10828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+18:23:42:620  INFO 10828 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.20.1:8081 register finished
+18:23:43:142  INFO 10828 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Receive server push request, request = NotifySubscriberRequest, requestId = 68
+18:23:43:146  INFO 10828 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [0673a5c0-f48f-482a-9322-d32253249e68] Ack server push request, request = NotifySubscriberRequest, requestId = 68
+18:23:44:004  INFO 10828 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:23:44:005  INFO 10828 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:23:44:010  INFO 10828 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:23:44:048  INFO 10828 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:23:44:244  INFO 10828 --- [restartedMain] com.cjp.item.ItemApplication             : Started ItemApplication in 15.783 seconds (JVM running for 17.565)
+18:23:51:711  INFO 10828 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:23:51:712  INFO 10828 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+18:23:51:714  INFO 10828 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
