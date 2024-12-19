@@ -31,24 +31,18 @@ import java.util.stream.Collectors;
  * 订单详情表 服务实现类
  * </p>
  *
- * @author 虎哥
+ * @author 陈建平
  * @since 2023-05-05
  */
 @Service
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
 
-    /*private  final RestTemplate restTemplate;
-
-    *//*public CartServiceImpl(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
-    }*//*
-    private final DiscoveryClient discoveryClient;*/
 
     private  final ItemClient itemClient;
 
     @Override
-    public void addItem2Cart(CartFormDTO cartFormDTO) {
+    public void  addItem2Cart(CartFormDTO cartFormDTO) {
         // 1.获取登录用户
         Long userId = UserContext.getUser();
 
@@ -73,7 +67,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     @Override
     public List<CartVO> queryMyCarts() {
         // 1.查询我的购物车列表
-        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, 1L/*UserContext.getUser()*/).list();
+        List<Cart> carts = lambdaQuery().eq(Cart::getUserId,1L/*UserContext.getUser()*//* todo 目前不知道为什么获取不到userId UserContext.getUser()*/).list();
         if (CollUtils.isEmpty(carts)) {
             return CollUtils.emptyList();
         }
@@ -89,31 +83,9 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     }
 
     private void handleCartItems(List<CartVO> vos) {
-        // 1. TODO  获取商品id
+        // 1.获取商品id
         Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
-        /*// 2.查询商品
-        // 2.1根据服务获取服务的实例列表
-        List<ServiceInstance> instances = discoveryClient.getInstances("item-service");
-        if(CollUtils.isEmpty(instances)){
-            return;
-        }
-        ServiceInstance instance = instances.get(RandomUtil.randomInt(instances.size()));
 
-        // 2.2手写负载均衡，挑选一个实例
-        //2.3 利用RestTemplate 发起的HTTP请求，得到HTTP响应
-        //List<ItemDTO> items = itemService.queryItemByIds(itemIds);
-        ResponseEntity<List<ItemDTO>> response = restTemplate.exchange(
-                instance.getUri()+"/items?ids={ids}",
-                HttpMethod.GET,
-                null,
-                new ParameterizedTypeReference<List<ItemDTO>>() {},
-                Map.of("ids", CollUtils.join(itemIds, ","))
-        );
-        //2.2解析响应
-        if(response.getStatusCode().is2xxSuccessful()){
-            return;
-        }
-        List<ItemDTO>  items = response.getBody();*/
         List<ItemDTO> items = itemClient.queryItemByIds(itemIds);
         if (CollUtils.isEmpty(items)) {
             return;

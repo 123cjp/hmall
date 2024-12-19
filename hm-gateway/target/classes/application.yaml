@@ -2,29 +2,49 @@ server:
   port: 8080
 spring:
   application:
-    name: gateway
+    name: gateways
   cloud:
     nacos:
       server-addr: 192.168.19.131:8848
     gateway:
       routes:
-        - id: item # 路由规则id，自定义，唯一
+        - id: item-service # 路由规则id，自定义，唯一
           uri: lb://item-service # 路由的目标服务，lb代表负载均衡，会从注册中心拉取服务列表
           predicates: # 路由断言，判断当前请求是否符合当前规则，符合则路由到目标服务
             - Path=/items/**,/search/** # 这里是以请求路径作为判断规则
-        - id: cart
+#          filters:
+#            - AddRequestHeader=X, blue
+        - id: cart-service
           uri: lb://cart-service
           predicates:
             - Path=/carts/**
-        - id: user
+        #          filters:
+        #            - AddRequestHeader=user-info, 1
+        - id: user-service
           uri: lb://user-service
           predicates:
             - Path=/users/**,/addresses/**
-        - id: trade
+        - id: trade-service
           uri: lb://trade-service
           predicates:
             - Path=/orders/**
-        - id: pay
+        - id: pay-service
           uri: lb://pay-service
           predicates:
             - Path=/pay-orders/**
+#      default-filters:
+#        - AddRequestHeader=user-info,1,2,3
+#        - PrintAny=1,2,3 自定义过滤器（但是用了登录报错）
+
+hm:
+  jwt:
+    location: classpath:hmall.jks #指定当前加密文件
+    alias: hmall #别名
+    password: hmall123 #解析文件的密码
+    tokenTTL: 30m
+  auth:
+    excludePaths: #不是所以请求路劲都要登录--不需要登录校验
+      - /search/**
+      - /users/login
+      - /items/**
+      - /hi
